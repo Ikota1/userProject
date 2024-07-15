@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header > div {
+  flex: 1;
+  text-align: center;
+}
+
+.availableUsers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.availableUsersNumber {
+  display: flex;
+  flex-direction: column;
+}
+
+.actions {
+  padding: 7px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.buttonActions {
+  padding: 7px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.users {
+  color: rgb(0, 115, 255);
+  margin: 0;
+}
+
+.usersTitle {
+  margin: 0;
+}

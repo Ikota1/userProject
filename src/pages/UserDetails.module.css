@@ -1,0 +1,40 @@
+.card {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+
+.card p {
+  margin: 10px 0;
+}
+
+.userCard {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.postButtonGroup button {
+  padding: 7px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.cardInformation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loading,
+.error {
+  font-size: 16px;
+  color: #999;
+}
