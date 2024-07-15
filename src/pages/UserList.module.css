@@ -1,6 +1,9 @@
 .container {
   margin: 0 auto;
   padding: 0 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
@@ -11,16 +14,21 @@ h1 {
 .userList {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .userCard {
-  display: flex;
-  margin: 0 auto;
-  gap: 2rem;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  width: 100%;
+  max-width: 800px;
+  margin: 10px 0;
+  gap: 20px;
   border-radius: 8px;
-  width: calc(50% - 20px);
+  padding: 20px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .userCard p {
@@ -35,4 +43,23 @@ h1 {
 
 .detailsLink:hover {
   text-decoration: underline;
+}
+
+.postButtonGroup {
+  display: flex;
+  gap: 10px;
+}
+
+.postButtonGroup button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.postButtonGroup button:hover {
+  background-color: #0056b3;
 }
